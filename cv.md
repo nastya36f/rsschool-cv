@@ -1,7 +1,7 @@
 # Nastassia Filipava
 ## Contacts
-**E-mail:** nastya.filippova87@gmail.com
-**Discord:** Nastassia#9437
+**E-mail:** nastya.filippova87@gmail.com  
+**Discord:** Nastassia#9437  
 **Location:** Minsk, Belarus  
 **Phone:** +375297632339
 ## About me
