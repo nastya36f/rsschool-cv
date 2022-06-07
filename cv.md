@@ -13,7 +13,7 @@ I am learning front-end and I want to become a cool specialist
 * HTML;
 * CSS;
 * JavaScript(Basic);
-* Git.
+* Git
 
 ## Code Example
 
