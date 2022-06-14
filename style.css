@@ -9,31 +9,30 @@
     background-color: #829985;
 }
 .header .menu-wrapper {
-    list-style: none;
-    text-align: right;
-    padding: 25px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto;padding: 25px;
+    list-style: none;
+    text-align: right;   
 }
 .menu-wrapper .nav-list {
     display: inline-block;
 }
 .nav-list a {
+    padding-right: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: white;
-    text-decoration: none;
-    padding-right: 15px;
+    text-decoration: none;  
 }
 .nav-list:hover{
     text-decoration: underline;
 }
 
 .foto-img {
-    border-radius: 100px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(130, 153, 133,0.3); 
 }
 .content-main {
     background-color: #ffffff;
@@ -41,15 +40,16 @@
 .person {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .flex-person {
-    text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
 
 .person-date {
@@ -67,10 +67,10 @@
 }
 
 .divider {
-    background-color: #829985;
     width: 120px;
     height: 3px;
     margin: 20px auto;
+    background-color: #829985;
 }
 .job-title {
     color:#4d2323;
@@ -82,8 +82,8 @@
 .main-divider {
     height: 15px;
     max-width: 1000px;
-    background-color: #d7d1c9;
     margin: 0 auto;
+    background-color: #d7d1c9;
 }
 
 .wrapper {
@@ -113,14 +113,14 @@
 }
 
 .title-section {
+    margin-top: 20px;
+    margin-left: 20px;
     color:#829985;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 4px;
-    margin-top: 20px;
-    margin-left: 20px;
 }  
 .light-font {
     color:#829985;
@@ -135,25 +135,27 @@
     font-size: 12px;
 }
 .courses-list,
-.lang-list {
-    list-style: circle;
+.lang-list,
+.projects-list {
     margin-left: 20px;
+    list-style: circle;
 }
 .footer {
     width: 100%;
     background-color:#829985;
 }
 .footer-wrapper {
-    max-width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    margin: 0 auto; 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px; 
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-
+    
 }
 .github {
     margin-top: 40px;
@@ -169,7 +171,12 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.projects-list a {
+    text-decoration: none;
+    color: #000000;
+}
 
 .remove-border {
     border-bottom: none;
 }
+
